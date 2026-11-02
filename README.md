@@ -121,7 +121,8 @@ You can add more tests in `tests/test_recommender.py`.
 Loading songs from data/songs.csv...
 Loaded songs: 20
 
-Recommendations for pop/happy (top 5):
+High-Energy Pop (pop/happy)
+Top 5 recommendations:
 
 1. Sunrise City by Neon Echo
    Score: 99.20/100
@@ -142,6 +143,42 @@ Recommendations for pop/happy (top 5):
 5. Night Drive Loop by Neon Echo
    Score: 38.45/100
    Reasons: energy similarity (+23.8); acousticness preference (+14.7)
+
+Deep Intense Rock (rock/intense)
+Top 5 recommendations:
+1. Storm Runner by Voltline
+   Score: 99.75/100
+   Reasons: mood match (+35.0); genre match (+25.0); energy similarity (+24.8); acousticness preference (+15.0)
+2. Gym Hero by Max Pulse
+   Score: 74.00/100
+   Reasons: mood match (+35.0); energy similarity (+24.8); acousticness preference (+14.2)
+3. Laser Bloom by Pulse Garden
+   Score: 38.20/100
+   Reasons: energy similarity (+24.3); acousticness preference (+13.9)
+4. Iron Requiem by Black Harbor
+   Score: 37.85/100
+   Reasons: energy similarity (+23.8); acousticness preference (+14.1)
+5. Sunrise City by Neon Echo
+   Score: 36.30/100
+   Reasons: energy similarity (+22.5); acousticness preference (+13.8)
+
+Chill Lofi (lofi/chill)
+Top 5 recommendations:
+1. Midnight Coding by LoRoom
+   Score: 98.15/100
+   Reasons: mood match (+35.0); genre match (+25.0); energy similarity (+24.5); acousticness preference (+13.6)
+2. Library Rain by Paper Lanterns
+   Score: 97.85/100
+   Reasons: mood match (+35.0); genre match (+25.0); energy similarity (+23.8); acousticness preference (+14.1)
+3. Spacewalk Thoughts by Orbit Bloom
+   Score: 70.20/100
+   Reasons: mood match (+35.0); energy similarity (+22.0); acousticness preference (+13.2)
+4. Focus Flow by LoRoom
+   Score: 64.70/100
+   Reasons: genre match (+25.0); energy similarity (+25.0); acousticness preference (+14.7)
+5. Coffee Shop Stories by Slow Stereo
+   Score: 37.90/100
+   Reasons: energy similarity (+24.2); acousticness preference (+13.7)
 ```
 
 **Screenshot or video** *(optional)*: <!-- Insert a screenshot or demo video link here -->
@@ -182,5 +219,3 @@ Write 1 to 2 paragraphs here about what you learned:
 
 - about how recommenders turn data into predictions
 - about where bias or unfairness could show up in systems like this
-
-
