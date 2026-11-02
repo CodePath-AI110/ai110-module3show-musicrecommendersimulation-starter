@@ -32,6 +32,16 @@ Prompts:
 
 Avoid code here. Pretend you are explaining the idea to a friend who does not program.
 
+The recommender uses a content-based approach: it compares each song's information
+with the listener's selected genre, mood, target energy, and acoustic preference.
+It gives the most weight to mood (35 points) and genre (25 points), because exact
+matches are strong signals of what the listener wants. It also gives up to 25
+points for energy based on how close the song is to the target, rather than using
+an all-or-nothing match. The final 15 points reward acousticness that fits the
+listener's preference. Songs are sorted from the highest total score to the
+lowest, and the command-line output lists the points earned for each reason so
+the recommendation is easy to understand.
+
 ---
 
 ## 4. Data  
